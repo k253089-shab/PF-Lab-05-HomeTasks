@@ -1,0 +1,13 @@
+IF hasPrerequisite == 1 THEN
+    IF isCourseFull == 0 THEN
+        PRINT "Enrolled Successfully."
+    ELSE 
+        PRINT "Cannot enroll: course is full."
+    END IF
+ELSE 
+    IF isCourseFull == 1 THEN
+        PRINT "Cannot enroll: prerequisite missing and course is full."
+    ELSE 
+        PRINT "Cannot enroll: prerequisite missing"
+    END IF
+END IF
