@@ -1,0 +1,9 @@
+IF username is correct THEN
+    IF password is correct THEN
+        PRINT "Login successful"
+    ELSE
+        PRINT "Incorrect password"
+    ENDIF
+ELSE
+    PRINT "Username not found"
+ENDIF
